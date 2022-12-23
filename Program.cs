@@ -35,7 +35,10 @@ namespace EXE5_001
         }
         public void delete()
         {
-
+            if( BEATRIX ==null)
+            {
+                Console.WriteLine("Queue kosong!");
+            }
         }
             
     }
