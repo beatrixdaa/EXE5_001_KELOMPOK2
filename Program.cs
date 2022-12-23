@@ -55,11 +55,22 @@ namespace EXE5_001
             for (display = BEATRIX; display != null; display = display.next)
                 Console.WriteLine(display.name);
         }
-    class Program
+        class Program
         {
+            static void Main(string[] args)
+            {
+                queue q = new queue();
+                char ch;
+                while (true)
+                {
+                    try
+                    {
+                        Console.WriteLine("Menu");
 
+                    }
+                }
+            }
         }
-            
     }
 }
     
