@@ -38,7 +38,15 @@ namespace EXE5_001
             if( BEATRIX ==null)
             {
                 Console.WriteLine("Queue kosong!");
+                return;
             }
+            BEATRIX = BEATRIX.next;
+            if (BEATRIX == null)
+                AGSI = null;
+        }
+        public void display()
+        {
+
         }
             
     }
