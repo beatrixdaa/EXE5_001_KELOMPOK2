@@ -46,6 +46,17 @@ namespace EXE5_001
         }
         public void display()
         {
+            if (BEATRIX ==null)
+            {
+                Console.WriteLine("Queue tidak ada!");
+                return;
+            }
+            Node display;
+            for (display = BEATRIX; display != null; display = display.next)
+                Console.WriteLine(display.name);
+        }
+    class Program
+        {
 
         }
             
