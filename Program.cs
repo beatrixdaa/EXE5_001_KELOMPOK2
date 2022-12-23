@@ -25,6 +25,8 @@ namespace EXE5_001
             Node newnode = new Node();
             Console.WriteLine("Masukkan Element :");
             nm = Console.ReadLine();
+            newnode.name = nm;
+            newnode.next = null;
         }
             
     }
