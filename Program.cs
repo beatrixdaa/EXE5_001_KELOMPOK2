@@ -70,7 +70,31 @@ namespace EXE5_001
                         Console.WriteLine("2. delete data");
                         Console.WriteLine("3. display");
                         Console.WriteLine("4. exit");
+                        Console.Write("\nMasukkan Pilihan. : ");
+                        ch = Convert.ToChar(Console.ReadLine());
+                        Console.WriteLine();
+                        switch (ch)
+                        {
+                            case '1':
+                                q.insert();
+                                break;
+                            case '2':
+                                q.delete();
+                                break;
+                            case '3':
+                                q.display();
+                                break;
+                            case '4':
+                                return;
+                            default:
+                                Console.WriteLine("Pilihan Salah");
+                                break;
+                        }
+                    }
+                    catch (Exception e)
+                    { 
 
+                        Console.WriteLine("Check the values");
                     }
                 }
             }
