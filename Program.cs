@@ -68,7 +68,8 @@ namespace EXE5_001
                         Console.WriteLine("Menu");
                         Console.WriteLine("1. insert data");
                         Console.WriteLine("2. delete data");
-                       
+                        Console.WriteLine("3. desplay");
+
 
                     }
                 }
