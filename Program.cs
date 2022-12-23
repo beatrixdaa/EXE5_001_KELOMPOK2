@@ -27,6 +27,15 @@ namespace EXE5_001
             nm = Console.ReadLine();
             newnode.name = nm;
             newnode.next = null;
+            if (BEATRIX ==null)
+            {
+                BEATRIX = newnode;
+                AGSI = newnode;
+            }
+        }
+        public void delete()
+        {
+
         }
             
     }
